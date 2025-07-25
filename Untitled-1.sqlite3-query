@@ -1,0 +1,10 @@
+-- database: ./attendance.db
+
+SELECT * FROM "table-name";
+CREATE TABLE attendance (
+id INT AUTO_INCREMENT PRIMARY KEY,
+event_name VARCHAR(255),
+attendees_count INT,
+attendees_names TEXT,
+created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
